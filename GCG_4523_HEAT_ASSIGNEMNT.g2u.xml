@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>EntireScope FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>116</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.SS_Form1..create</string>
+        <string>Gui.SS_Form1..caption("Select Heat")</string>
+        <string>Gui.SS_Form1..size(2250,1725)</string>
+        <string>Gui.SS_Form1..position(0,0)</string>
+        <string>Gui.SS_Form1..forecolor(0)</string>
+        <string>Gui.SS_Form1..fontstyle(,,)</string>
+        <string>Gui.SS_Form1..BackColor(-2147483633)</string>
+        <string>Gui.SS_Form1..maxbutton(False)</string>
+        <string>Gui.SS_Form1..minbutton(False)</string>
+        <string>Gui.SS_Form1..mousepointer(0)</string>
+        <string>Gui.SS_Form1..sizeable(False)</string>
+        <string>Gui.SS_Form1..MinX(0)</string>
+        <string>Gui.SS_Form1..MinY(0)</string>
+        <string>Gui.SS_Form1..Event(UnLoad,SS_Form1_UnLoad)</string>
+        <string>Gui.SS_Form1.lbl_ddlHeat.create(label,"Select Heat:",True,1800,200,1,100,135,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl_ddlHeat.LabelStretch(True)</string>
+        <string>Gui.SS_Form1.ddlHeat.create(dropdownlist)</string>
+        <string>Gui.SS_Form1.ddlHeat.size(1800,330)</string>
+        <string>Gui.SS_Form1.ddlHeat.position(105,330)</string>
+        <string>Gui.SS_Form1.ddlHeat.BackColor(12632256)</string>
+        <string>Gui.SS_Form1.cmdOk.create(button)</string>
+        <string>Gui.SS_Form1.cmdOk.Caption("Ok")</string>
+        <string>Gui.SS_Form1.cmdOk.size(1000,360)</string>
+        <string>Gui.SS_Form1.cmdOk.position(100,750)</string>
+        <string>Gui.SS_Form1.cmdOk.Event(Click,cmdOk_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Variable.Global.sHeat.Declare(String)</string>
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>v.Local.sSql.Declare(String)</string>
+        <string>v.Local.sTemp.Declare(String)</string>
+        <string>v.Local.bExists.Declare(Boolean)</string>
+        <string>v.Local.iTemp.Declare(Long,0)</string>
+        <string />
+        <string>'if hook 51100 JB0640 fires after Update Pieces &gt; Process is clicked on the GUI.</string>
+        <string>'It fires before the AUTO WIP to fg Labels Print on report ID 1835 or 1871. They heat number that we pass should print on those lables</string>
+        <string>'the finished good pieces that are WIPd should retain that heat # we send to the passed variable 9005</string>
+        <string />
+        <string />
+        <string />
+        <string>f.Intrinsic.Control.If(v.Caller.Hook,=,51100)</string>
+        <string>Function.Intrinsic.Control.AndIf(v.Passed.SYS050,=,"OLG002")</string>
+        <string>	'Get heat # from user.</string>
+        <string>	f.Intrinsic.String.Build("select distinct Heat from item_history where JOB = '{0}' and suffix = '{1}' and code_transaction = 'J55'",v.Passed.009000,v.Passed.009001,v.Local.sSql)</string>
+        <string>	f.ODBC.Connection!conx.OpenConnection(v.Ambient.PDSN,v.Ambient.PUser,v.Ambient.PPass)</string>
+        <string>	f.ODBC.Connection!conx.OpenRecordsetRO("rst",v.Local.sSql)</string>
+        <string>	f.Intrinsic.Control.If(v.ODBC.conx!rst.EOF,&lt;&gt;,True)</string>
+        <string>		</string>
+        <string>		'Load selections to </string>
+        <string>		f.Intrinsic.Control.DoUntil(v.ODBC.conx!rst.EOF,=,true)</string>
+        <string>			f.Intrinsic.Control.If(v.ODBC.conx!rst.FieldValTrim!HEAT,&lt;&gt;,"")</string>
+        <string>				gui.SS_Form1.ddlHeat.AddItem(v.ODBC.conx!rst.FieldValTrim!HEAT)</string>
+        <string>				f.Intrinsic.Math.Add(1,v.Local.iTemp,v.Local.iTemp)</string>
+        <string>				v.Local.bExists.Set(True)</string>
+        <string>				v.Global.sHeat.Set(v.ODBC.conx!rst.FieldValTrim!HEAT)</string>
+        <string>			f.Intrinsic.Control.EndIf</string>
+        <string>			</string>
+        <string>			f.ODBC.conx!rst.MoveNext</string>
+        <string>		f.Intrinsic.Control.Loop	</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.conx!rst.Close</string>
+        <string>	f.ODBC.Connection!conx.Close</string>
+        <string>	</string>
+        <string>	'if only ONE heat, then just assign that one and end.</string>
+        <string>	f.Intrinsic.Control.If(v.Local.iTemp,=,1)</string>
+        <string>	Function.Intrinsic.Control.AndIf(v.Global.sHeat.Trim,&lt;&gt;,"")</string>
+        <string>		v.Passed.009005.Set(v.Global.sHeat)</string>
+        <string>		f.Intrinsic.Control.End</string>
+        <string />
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	f.Intrinsic.Control.If(v.Local.bExists,=,True)</string>
+        <string>	f.Intrinsic.Control.AndIf(v.Local.iTemp,&gt;,1)</string>
+        <string>		gui.SS_Form1..Show</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>f.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4523_HEAT_ASSIGNMENT.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.cmdOk_Click.Start</string>
+        <string>f.Intrinsic.Control.If(v.Screen.SS_Form1!ddlHeat.Text,&lt;&gt;,"")</string>
+        <string>	v.Passed.009005.Set(v.Screen.SS_Form1!ddlHeat.Text)</string>
+        <string>	f.Intrinsic.Control.End</string>
+        <string />
+        <string>f.Intrinsic.Control.Else</string>
+        <string>	gui.SS_Form1.lbl_ddlHeat.Caption("SELECTION REQUIRED")</string>
+        <string>	gui.SS_Form1.lbl_ddlHeat.FontStyle(True,false,false,false,false)</string>
+        <string />
+        <string>f.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdOk_Click.End</string>
+        <string />
+        <string>Program.Sub.SS_Form1_UnLoad.Start</string>
+        <string>Program.Sub.SS_Form1_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$GCG_4470_HEAT_ASSIGNEMNT$}$SUPERVSR$}$3/29/2017 9:32:22 AM$}$False</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$prompts the user to select a heat# from multiple heats that were issued to the job. passes the heat to a variable core uses to process the pieces being put into inventory</string>
+        <string />
+        <string>Program.Sub.ScreenSS.Start</string>
+        <string>SS_Form1{{CAPTION::Select Heat</string>
+        <string>SS_Form1.CTRL{{NAME::ddlHeat\\TYPE::4\\CAPTION::Select Heat:\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::cmdOk\\TYPE::5\\CAPTION::Ok\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string>Program.Sub.Comments.End</string>
+        <string />
+        <string>Program.Sub.ScreenSS.Start</string>
+        <string>SS_Form1{{CAPTION::Select Heat</string>
+        <string>SS_Form1.CTRL{{NAME::ddlHeat\\TYPE::4\\CAPTION::Select Heat:\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::cmdOk\\TYPE::5\\CAPTION::Ok\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string />
+        <string>Program.Sub.ScreenSS.End</string>
+        <string />
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>36</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>26</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>29</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>30</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>32</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>99</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>101</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>111</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdOk_Click</Text>
+        <DisplayText>Program.Sub.cmdOk_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>113</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>114</Y>
+        </EndPoint>
+        <Text>Program.Sub.SS_Form1_UnLoad</Text>
+        <DisplayText>Program.Sub.SS_Form1_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>113</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>124</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>126</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>131</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSS</Text>
+        <DisplayText>Program.Sub.ScreenSS</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
